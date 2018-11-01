@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Casambi</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&amp;subset=cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.11.4.spinner/jquery-ui.css" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="js/slick/slick.css" />
+        <link rel="stylesheet" href="js/jscrollpane/jquery.jscrollpane.css" />
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/jquery-ui-1.11.4.spinner/jquery-ui.min.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/slick/slick.min.js"></script>
+        <script src="js/jscrollpane/jquery.mousewheel.js"></script>
+        <script src="js/jscrollpane/jquery.jscrollpane.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+            <div class="wrapper-inner">
+
+                <header>
+                    <div class="container">
+
+                        <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="248" height="38" /></a></div>
+
+                        <div class="header-title">Управление светом<br /> для современного мира</div>
+
+                        <div class="header-text">
+                            <div class="header-phone"><a href="tel:+79031770617">+7 (903) 177-06-17</a></div>
+                            <div class="header-schedule">Пн–Вс, 10:00 - 22:00</div>
+                        </div>
+
+                        <div class="header-cart">
+                            <a href="#" class="header-cart-value"><span>2</span></a>
+                            <div class="header-cart-window">
+                                <!-- basket row -->
+                                <div class="basket-row">
+                                    <div class="basket-photo"><a href="#"><img src="files/header-basket.jpg" alt="" /></a></div>
+                                    <div class="basket-text">
+                                        <div class="basket-title"><a href="#">Bluetooth драйвер 0-10 Вт/DALI</a></div>
+                                        <div class="basket-art">Артикул: Д012_01</div>
+                                    </div>
+                                    <div class="basket-row-price">15 500 &#8381;</div>
+                                </div>
+                                <!-- basket row END -->
+
+                                <!-- basket row -->
+                                <div class="basket-row">
+                                    <div class="basket-photo"><a href="#"><img src="files/header-basket.jpg" alt="" /></a></div>
+                                    <div class="basket-text">
+                                        <div class="basket-title"><a href="#">Bluetooth драйвер 0-10 Вт/DALI</a></div>
+                                        <div class="basket-art">Артикул: Д012_01</div>
+                                    </div>
+                                    <div class="basket-row-price">27 100 &#8381;</div>
+                                </div>
+                                <!-- basket row END -->
+                                <div class="header-cart-links">
+                                    <a href="#" class="header-cart-window-hide">Свернуть</a>
+                                    <a href="#" class="header-cart-window-order">Оформить заказ</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="header-compare"></a>
+
+                        <div class="header-search">
+                            <a href="#" class="header-search-link"></a>
+                            <form action="#" method="post">
+                                <div class="form-input"><input type="text" name="search" value="" class="required" /></div>
+                                <div class="form-submit"><input type="submit" value="" /></div>
+                            </form>
+                        </div>
+
+                    </div>
+                </header>
+
+                <!-- nav -->
+                <div class="nav">
+                    <div class="container">
+                        <div class="menu-add">
+                            <div class="menu-add-logo"><img src="images/logo-menu.svg" alt="" width="241" height="65" /></div>
+                            <a href="#" class="menu-add-link"></a>
+                            <ul class="menu-add-main">
+                                <li class="active"><a href="#">О технологии</a></li>
+                                <li class="menu-add-main-link"><a href="#">Каталог</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                            <div class="menu-add-sections">
+                                <a href="#" class="menu-add-section-close-mobile"></a>
+                                <ul>
+                                    <li>
+                                        <a href="#">По типам</a>
+                                        <div class="menu-add-section">
+                                            <div class="main-sections-item main-sections-item-01">
+                                                <div class="main-sections-item-inner" style="background-image:url(files/main-section-01.jpg)">
+                                                    <a href="#" class="main-sections-item-inner-link"></a>
+                                                    <div class="main-sections-item-title"><a href="#">По типам</a></div>
+                                                    <ul>
+                                                        <li><a href="#">Драйверы для LED-светильников</a></li>
+                                                        <li><a href="#">Драйверы для 220-светильников</a></li>
+                                                        <li><a href="#">Драйверы для LED-лент</a></li>
+                                                        <li><a href="#">Классические звонковые</a></li>
+                                                        <li><a href="#">Таблетки под выключатели</a></li>
+                                                        <li><a href="#">Датчики движения</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="menu-add-catalogue">
+                                                <div class="menu-add-catalogue-inner">
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+                                                </div>
+                                            </div>
+                                            <a href="#" class="menu-add-section-close"></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">По производителям</a>
+                                        <div class="menu-add-section">
+                                            <div class="main-sections-item main-sections-item-02">
+                                                <div class="main-sections-item-inner" style="background-image:url(files/main-section-02.jpg)">
+                                                    <a href="#" class="main-sections-item-inner-link"></a>
+                                                    <div class="main-sections-item-title"><a href="#">По производителям</a></div>
+                                                    <ul>
+                                                        <li><a href="#">Драйверы для LED-светильников</a></li>
+                                                        <li><a href="#">Драйверы для 220-светильников</a></li>
+                                                        <li><a href="#">Драйверы для LED-лент</a></li>
+                                                        <li><a href="#">Классические звонковые</a></li>
+                                                        <li><a href="#">Таблетки под выключатели</a></li>
+                                                        <li><a href="#">Датчики движения</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="menu-add-catalogue">
+                                                <div class="menu-add-catalogue-inner">
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+
+                                                    <!-- catalogue item -->
+                                                    <div class="catalogue-item">
+                                                        <div class="catalogue-item-inner">
+                                                            <div class="catalogue-item-photo"><a href="#"><img src="files/catalogue.jpg" alt="" /></a></div>
+                                                            <div class="catalogue-item-text">
+                                                                <div class="catalogue-item-text-inner">
+                                                                    <div class="catalogue-item-name"><a href="#">Bluetooth драйвер<br /> 0-10 Вт/DALI</a></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalogue-item-ctrl">
+                                                                <div class="catalogue-item-price">15 500 &#8381;</div>
+                                                                <div class="catalogue-item-cart"><a href="windows/basket.html"></a></div>
+                                                                <div class="catalogue-item-price-old">17 500 &#8381;</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- catalogue item END -->
+                                                </div>
+                                            </div>
+                                            <a href="#" class="menu-add-section-close"></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- nav END -->
+
+                <!-- container -->
+                <div class="container">
+
+                    <div class="breadcrumbs"><a href="#">Casambi</a><span></span><a href="#">Каталог</a><span></span><a href="#">По типам</a><span></span><a href="#">Драйверы для LED-светильников</a><span></span>Bluetooth драйвер 0-10 Вт/DALI</div>
+
+                    <!-- side -->
+                    <div class="side">
+
+                        <div class="side-menu">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">О компании</a>
+                                    <ul>
+                                        <li><a href="#">Руководство</a></li>
+                                        <li class="active"><a href="#">Вакансии</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Услуги</a>
+                                    <ul>
+                                        <li><a href="#">Руководство</a></li>
+                                        <li><a href="#">Вакансии</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Доставка и оплата</a></li>
+                                <li>
+                                    <a href="#">Гарантии</a>
+                                    <ul>
+                                        <li><a href="#">Руководство</a></li>
+                                        <li><a href="#">Вакансии</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Условия использования</a>
+                                    <ul>
+                                        <li><a href="#">Руководство</a></li>
+                                        <li><a href="#">Вакансии</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- side END -->
+
+                    <!-- content -->
+                    <div class="content">
+                        <div class="content-wrap">
+
+                            <!-- catalogue header -->
+                            <div class="catalogue-header">
+                                <h1>H1 - Вакансии</h1>
+
+                                <a href="#" class="side-menu-mobile-link">Свернуть</a>
+                            </div>
+                            <!-- catalogue header END -->
+
+                            <p>Жизненный цикл продукции транслирует потребительский метод изучения рынка. По сути, управление брендом специфицирует конвергентный целевой сегмент рынка. <a href="#">По мнению ведущих маркетологов</a>, медиапланирование оправдывает из ряда вон выходящий медиабизнес. Сервисная стратегия, суммируя приведенные примеры, создает конструктивный анализ зарубежного опыта.</p>
+                            <p class="mobile-wide"><img src="files/typography.jpg" alt="" /></p>
+                            <p>Инвестиционный продукт, как принято считать, допускает институциональный формат события. В соответствии с законом Ципфа, бренд определяет комплексный медиамикс. PR позиционирует фирменный департамент маркетинга и продаж, осознавая социальную ответственность бизнеса. Баннерная реклама, следовательно, выражена наиболее полно.</p>
+                            <h2>H2 - Наша миссия</h2>
+                            <p>Отсюда естественно следует, что традиционный канал однородно детерминирует типичный ребрендинг. Инструмент маркетинга, отбрасывая подробности, отталкивает ролевой ребрендинг. Особенность рекламы требовальна к креативу. Стратегическое планирование вполне выполнимо. Бизнес-стратегия, конечно, отталкивает охват аудитории. Косвенная реклама, как принято считать, неоднозначна.</p>
+                            <blockquote>Креатив основан на тщательном анализе. Потребление, безусловно, трансформирует product placement. Стимулирование коммьюнити, пренебрегая деталями, трансформирует сублимированный медиабизнес.</blockquote>
+                            <h2>H2 - Наша миссия</h2>
+                            <p>Инвестиционный продукт, как принято считать, допускает институциональный формат события. В соответствии с законом Ципфа, бренд определяет комплексный медиамикс. PR позиционирует фирменный департамент маркетинга и продаж, осознавая социальную ответственность бизнеса. Баннерная реклама, следовательно, выражена наиболее полно.</p>
+                            <h3>H3 - Наша цель</h3>
+                            <p>Таргетирование исключительно ускоряет комплексный повторный контакт, осознав маркетинг как часть производства. Корпоративная культура, не меняя концепции, изложенной выше, порождает рекламный макет, полагаясь на инсайдерскую информацию. Воздействие на потребителя притягивает SWOT-анализ, невзирая на действия конкурентов. Каждая сфера рынка вырождена.</p>
+                            <p>Инвестиционный продукт, как принято считать, допускает институциональный формат события. В соответствии с законом Ципфа, бренд определяет комплексный медиамикс. PR позиционирует фирменный департамент маркетинга и продаж, осознавая социальную ответственность бизнеса. Баннерная реклама, следовательно, выражена наиболее полно.</p>
+                            <h4>H4 - Список</h4>
+                            <ul>
+                                <li>
+                                    А вот по мнению аналитиков размещение синхронизирует метод изучения рынка.
+                                </li>
+                                <li>
+                                    До недавнего времени считалось, что осведомленность о бренде усиливает комплексный медиамикс
+                                    <ul>
+                                        <li>Не факт, что медиапланирование оправдывает охват аудитории, учитывая современные тенденции.</li>
+                                        <li>Баланс спроса и предложения программирует креативный процесс стратегического планирования.</li>
+                                    </ul>
+                                </li>
+                                <li>До недавнего времени считалось, что осведомленность о бренде усиливает комплексный медиамикс, признавая определенные рыночные тенденции.</li>
+                            </ul>
+                            <h4>H4 - Список</h4>
+                            <ol>
+                                <li>
+                                    А вот по мнению аналитиков размещение синхронизирует метод изучения рынка.
+                                </li>
+                                <li>
+                                    До недавнего времени считалось, что осведомленность о бренде усиливает комплексный медиамикс
+                                    <ol>
+                                        <li>Не факт, что медиапланирование оправдывает охват аудитории, учитывая современные тенденции.</li>
+                                        <li>Баланс спроса и предложения программирует креативный процесс стратегического планирования.</li>
+                                    </ol>
+                                </li>
+                                <li>До недавнего времени считалось, что осведомленность о бренде усиливает комплексный медиамикс, признавая определенные рыночные тенденции.</li>
+                            </ol>
+                            <p>Инвестиционный продукт, как принято считать, допускает институциональный формат события. В соответствии с законом Ципфа, бренд определяет комплексный медиамикс. PR позиционирует фирменный департамент маркетинга и продаж, осознавая социальную ответственность бизнеса. Баннерная реклама, следовательно, выражена наиболее полно.</p>
+
+                            <hr />
+
+                            <!-- signature -->
+                            <div class="signature">
+                                <div class="signature-text"><strong>ИВАН ПЕТРОВ</strong><br />Директор по развитию</div>
+                                <div class="signature-date">12 сентября 2018</div>
+                            </div>
+                            <!-- signature END -->
+
+                            <h2>H2 - Наша миссия</h2>
+                            <p>KBSound Premium - это система для фонового озвучивания средних и крупных помещений, таких как кухня, спальня, ванная, офис, гостиничный номер. Она состоит из двух динамиков 2,5 дюйма, электронного модуля и блока питания. Электронный модуль предназначен для настенного монтажа. Модуль включает в себя FM-тюнер, усилитель, часы, календарь, есть вход мини-джек для подключения внешних источников звука. В комплект входят все необходимые кабели.</p>
+                            <div class="table-scroll-mobile">
+                                <table class="table-rows">
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Категория</strong></td>
+                                            <td>Системы мультирум</td>
+                                            <td>Системы мультирум</td>
+                                            <td>Системы мультирум</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Производитель</strong></td>
+                                            <td>KBSOUND</td>
+                                            <td>KBSOUND</td>
+                                            <td>KBSOUND</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Тип помещения</strong></td>
+                                            <td>Жилые комнаты</td>
+                                            <td>Жилые комнаты</td>
+                                            <td>Жилые комнаты</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Тип установки</strong></td>
+                                            <td>В потолок</td>
+                                            <td>В потолок</td>
+                                            <td>В потолок</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Цвет динамиков</strong></td>
+                                            <td>Белые</td>
+                                            <td>Белые</td>
+                                            <td>Белые</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Мощность динамиков</strong></td>
+                                            <td>100 W</td>
+                                            <td>100 W</td>
+                                            <td>100 W</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Частотный диапазон</strong></td>
+                                            <td>100 Hz - 20 KHz</td>
+                                            <td>100 Hz - 20 KHz</td>
+                                            <td>100 Hz - 20 KHz</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Bluetooth</strong></td>
+                                            <td>Есть</td>
+                                            <td>Есть</td>
+                                            <td>Есть</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h2>H2 - Наша миссия</h2>
+                            <p>KBSound Premium - это система для фонового озвучивания средних и крупных помещений, таких как кухня, спальня, ванная, офис, гостиничный номер. Она состоит из двух динамиков 2,5 дюйма, электронного модуля и блока питания. Электронный модуль предназначен для настенного монтажа. Модуль включает в себя FM-тюнер, усилитель, часы, календарь, есть вход мини-джек для подключения внешних источников звука. В комплект входят все необходимые кабели.</p>
+                            <div class="table-scroll-mobile">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Описание</th>
+                                            <th>Значение&nbsp;1</th>
+                                            <th style="text-align:center">Значение&nbsp;2</th>
+                                            <th style="text-align:center">Значение&nbsp;3</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Искусство медиапланирования усиливает целевой сегмент рынка. Имиджевая реклама однообразно специфицирует связанный рекламный блок.</td>
+                                            <td>Анализ зарубежного опыта основан на анализе телесмотрения. Медийная реклама существенно концентрирует конструктивный формирование имиджа.</td>
+                                            <td style="text-align:center; vertical-align:middle">1 500</td>
+                                            <td style="text-align:center; vertical-align:middle">100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Потребление, суммируя приведенные примеры, естественно детерминирует рейтинг.</td>
+                                            <td>PR поддерживает экспериментальный потребительский рынок. Имидж, в рамках сегодняшних воззрений, обоснован необходимостью.</td>
+                                            <td style="text-align:center; vertical-align:middle">3 000</td>
+                                            <td style="text-align:center; vertical-align:middle">500</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h2>H2 - Наша миссия</h2>
+
+                            <form action="#" method="post" style="padding:0; border:none">
+                                <div class="form-row" style="width:100px">
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="number" name="count1" value="1" min="1" step="1" /></div>
+                                    </div>
+                                </div>
+                                <div class="form-row" style="width:210px">
+                                    <div class="form-field">
+                                        <a href="#" class="btn-submit">Применить</a>
+                                    </div>
+                                </div>
+                                <div class="form-row" style="width:210px">
+                                    <div class="form-field">
+                                        <a href="#" class="btn-reset">Сбросить все</a>
+                                    </div>
+                                </div>
+                                <div class="form-row" style="width:230px">
+                                    <div class="form-field">
+                                        <a href="#" class="btn-submit btn-big">В корзину</a>
+                                    </div>
+                                </div>
+                                <div class="form-row" style="width:230px">
+                                    <div class="form-field">
+                                        <a href="#" class="btn-reset btn-big">В корзину</a>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <h2>H2 - Наша миссия</h2>
+                            <form action="#" method="post">
+                                <div class="form-success">
+                                    <div class="form-success-title">Всё Удалось!</div>
+                                    <div class="form-success-text">Описание успеха. Может быть очень-очень длинным</div>
+                                </div>
+
+                                <div class="form-error">
+                                    <div class="form-error-title">Ошибка!</div>
+                                    <div class="form-error-text">Описание ошибки. Может быть очень-очень длинным</div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Ваше ФИО</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="name" value="" class="required" /></div>
+                                        <div class="form-hint">Например: Иван Васильев</div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Ваш Email</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="email" value="ivan@petrov.ru" class="required email" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Контактный телефон <span>/ опционально</span></div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="phone" value="" class="maskPhone" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Имя вашей собаки</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><input type="text" name="pet" value="" class="required" /></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="cols">
+                                        <div class="col-half">
+                                            <div class="form-label">Адрес и способ доставки</div>
+                                            <div class="form-field">
+                                                <div class="form-select">
+                                                    <select name="select1" data-placeholder="Выберите значение" class="required">
+                                                        <option value=""></option>
+                                                        <option value="1">Доставка по Москве</option>
+                                                        <option value="2">Доставка по России</option>
+                                                        <option value="3">Самовывоз</option>
+                                                        <option value="4">Доставка по миру</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-half">
+                                            <div class="form-label">Адрес и способ доставки</div>
+                                            <div class="form-field">
+                                                <div class="form-select">
+                                                    <select name="select2" data-placeholder="Выберите значение">
+                                                        <option value=""></option>
+                                                        <option value="1" selected="selected">Доставка по Москве</option>
+                                                        <option value="2">Доставка по России</option>
+                                                        <option value="3">Самовывоз</option>
+                                                        <option value="4">Доставка по миру</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <div class="form-checkbox">
+                                            <label><input type="checkbox" name="checkbox1" checked="checked" class="required" /><span></span><strong>Подписаться на новости и скидки</strong></label>
+                                        </div>
+                                        <div class="form-checkbox">
+                                            <label><input type="checkbox" name="checkbox2" /><span></span><strong>Подписаться на новости и скидки</strong></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <div class="form-radio">
+                                            <label><input type="radio" name="radio2" value="1" checked="checked" /><span></span><strong>Адресная доставка курьером</strong></label>
+                                        </div>
+                                        <div class="form-radio">
+                                            <label><input type="radio" name="radio2" value="2" /><span></span><strong>Адресная доставка курьером</strong></label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-label">Ваше ФИО</div>
+                                    <div class="form-field">
+                                        <div class="form-input"><textarea name="comment" rows="5" cols="10"></textarea></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <div class="form-file">
+                                            <div class="form-file-input">Прикрепить файл<input type="file" name="file" class="required" /></div>
+                                            <div class="form-file-name"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-field">
+                                        <div class="form-submit">
+                                            <input type="submit" value="Оформить заказ" class="btn-submit btn-big" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!-- content END -->
+
+                </div>
+                <!-- container END -->
+
+            </div>
+        </div>
+        <!-- wrapper END -->
+
+        <footer>
+            <div class="container">
+
+                <div class="footer-contacts">
+                    <div class="footer-logo"><img src="images/logo.png" alt="" width="248" height="38" /></div>
+                    <dl>
+                        <dt>Телефон</dt>
+                        <dd><strong>+7 (903) 177-06-17</strong></dd>
+
+                        <dt>Адрес</dt>
+                        <dd>Москва, ул. Кожевническая, д. 7, стр. 2</dd>
+
+                        <dt>Время работы</dt>
+                        <dd>10:00 - 22:00</dd>
+                    </dl>
+                </div>
+
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">О технологии</a></li>
+                        <li>
+                            <a href="#">Каталог</a>
+                            <ul>
+                                <li><a href="#">По типам</a></li>
+                                <li><a href="#">По производителям</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="bottom">
+                <div class="container">
+                    <div class="copyrights">© Компания Casambi, 2018</div>
+                    <div class="developer">Разработка сайта: <a href="#" target="_blank">Bilingo Digital Studio</a></div>
+                    <div class="social">
+                        <a href="#" class="social-vk"></a>
+                        <a href="#" class="social-fb"></a>
+                        <a href="#" class="social-in"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
